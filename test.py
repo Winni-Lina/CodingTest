@@ -1,3 +1,4 @@
-str1 = "내pc지키미2021"
+str1 = "ABCDEFG"
 
-print(str1[-1])
+if "ABD" in str1:
+    print("참")
