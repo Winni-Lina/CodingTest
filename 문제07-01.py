@@ -6,5 +6,35 @@
 a = "neven"
 a = "seven"
 
-if (a[0] == a[4]) and (a[1] == a[3]):
-    print("펠린드롬이다")
+#5글자인 경우
+##하나라도 만족하지 못하면, 펠린드롬이 아니다.
+if a[0] == a[4]:
+    print("펠린드롬이 아니다.")
+elif a[1] != a[3]:
+    print("펠린드롬이 아니다.")
+else:
+    print("펠린드롬이다.")
+
+for i in range(2):
+    if a[i] != a[4-i]:
+        print("펠린드롬이 아니다.")
+print("펠린드롬이다.")
+a = "enevene"
+
+## 7글자인 경우
+##하나라도 만족하지 못하면, 펠린드롬이 아니다.
+if a[0] == a[6]:
+    print("펠린드롬이 아니다.")
+elif a[1] != a[5]:
+    print("펠린드롬이 아니다.")
+elif a[2] != a[4]:
+    print("펠린드롬이 아니다.")
+else:
+    print("펠린드롬이다.")
+
+
+for i in range(3):
+    if a[i] != a[6-i]:
+        print("펠린드롬이 아니다.")
+print("펠린드롬이다.")
+a = "enevene"
