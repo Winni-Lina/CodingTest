@@ -1,3 +1,4 @@
+
 def solution(sentence):
     str = ''
     for c in sentence:
