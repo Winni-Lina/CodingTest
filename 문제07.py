@@ -1,8 +1,12 @@
+# for i in range(3):
+#     if a[i] != a[len(a)-1 -i]:
+#         print("펠린드롬이 아니다.")
+# print("펠린드롬이다.")
 
 def solution(sentence):
     str = ''
     for c in sentence:
-        if c != '.' or c != ' ':
+        if c != '.' and c != ' ':
             str += c
     size = len(str)
     for i in range(size // 2):
