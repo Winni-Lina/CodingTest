@@ -17,7 +17,7 @@ grade1 = "V"
 ret1 = solution(price1, grade1)
 print("ret1의 값은? ", ret1, ".")
 
-price2 =  96900
+price2 = 96900
 grade2 = "S"
 ret2 = solution(price2, grade2)
 print("ret2의 값은? ", ret2, ".")
